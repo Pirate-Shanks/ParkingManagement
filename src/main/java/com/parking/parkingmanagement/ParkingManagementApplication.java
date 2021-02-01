@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.env.ConfigurableEnvironment;
 
 @SpringBootApplication
-@MapperScan("com.course.server.mapper")
+@MapperScan("com.parking.parkingmanagement.mapper")
 public class ParkingManagementApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ParkingManagementApplication.class);

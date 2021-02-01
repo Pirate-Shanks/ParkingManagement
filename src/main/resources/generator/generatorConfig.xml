@@ -21,7 +21,7 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/course"
+                        connectionURL="jdbc:mysql://localhost:3306/park_management"
                         userId="root"
                         password="123456">
         </jdbcConnection>
@@ -36,11 +36,11 @@
 
         <!-- mapper类的位置 -->
         <javaClientGenerator targetProject="src/main/java"
-                             targetPackage="com.course.parkingmanagement.mapper"
+                             targetPackage="com.parking.parkingmanagement.mapper"
                              type="XMLMAPPER" />
 
 <!--        <table tableName="test" domainObjectName="Test"/>-->
-        <table tableName="chapter" domainObjectName="Chapter"/>
+        <table tableName="member" domainObjectName="Member"/>
 <!--        <table tableName="section" domainObjectName="Section"/>-->
 <!--        <table tableName="course" domainObjectName="Course"/>-->
 <!--        <table tableName="course_content" domainObjectName="CourseContent"/>-->
