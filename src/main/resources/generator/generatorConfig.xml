@@ -21,9 +21,9 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/park_management"
-                        userId="root"
-                        password="123456">
+                        connectionURL="jdbc:mysql://snowqiqi.com:3306/parking?useSSL=false&amp;characterEncoding=utf-8&amp;autoReconnect=true&amp;serverTimezone=UTC"
+                        userId="liran"
+                        password="liran@admin">
         </jdbcConnection>
 
         <!-- domain类的位置 -->
@@ -40,7 +40,7 @@
                              type="XMLMAPPER" />
 
 <!--        <table tableName="test" domainObjectName="Test"/>-->
-        <table tableName="member" domainObjectName="Member"/>
+        <table tableName="parking_space" domainObjectName="ParkingSpace"/>
 <!--        <table tableName="section" domainObjectName="Section"/>-->
 <!--        <table tableName="course" domainObjectName="Course"/>-->
 <!--        <table tableName="course_content" domainObjectName="CourseContent"/>-->
